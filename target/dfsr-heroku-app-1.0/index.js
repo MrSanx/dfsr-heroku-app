@@ -14,5 +14,5 @@ window.onload = function() {
 }
 
 function actualizarMensaje(){
-    alert("cambiaste el estudiante");
+    alert("Cambiaste el estudiante");
 }
