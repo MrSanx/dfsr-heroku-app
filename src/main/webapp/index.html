@@ -16,26 +16,30 @@
             <h3 id="aleatorio">0</h3>
         </div>
         <div class="box">
-            <select onchange="actualizarMensaje()">
-                <option>Miguel Alfonso Varela</option>
-                <option>Daniel Felipe Sanchez Ruiz</option>
-                <option>David Alejandro Abello Carmona</option>
-                <option>Victor Angel Araque Rangel</option>
-                <option>Juan David Cardenas Rincon</option>
-                <option>Camilo Ernesto Diaz Preciado</option>
-                <option>David Alejandro Espitia Cortes</option>
-                <option>Miguel Angel Fandino Castro</option>
-                <option>Javier Esteban Garavito Chaves</option>
-                <option>Vanessa Alexandra Gonzalez Casallas</option>
-                <option>Andres David Gonzalez Maya</option>
-                <option>Nicolas Jose Gonzalez Suarez</option>
-                <option>Nicolas Pachon Unibio</option>
-                <option>Samuel Santiago Ramirez Gonzalez</option>
-                <option>Juan Felipe Rivera Neira</option>
-                <option>Lucas Siqueira Restani</option>
-                <option>Santiago Varela Hernandez</option> 
+            <select onchange="actualizarMensaje()" id="selected">
+                <optgroup label="Profesor">
+                    <option value="mav">Miguel Alfonso Varela</option>
+                </optgroup>
+                <optgroup label="Estudiantes">
+                    <option value="dfsr" selected>Daniel Felipe Sanchez Ruiz</option>
+                    <option>David Alejandro Abello Carmona</option>
+                    <option>Victor Angel Araque Rangel</option>
+                    <option>Juan David Cardenas Rincon</option>
+                    <option>Camilo Ernesto Diaz Preciado</option>
+                    <option>David Alejandro Espitia Cortes</option>
+                    <option>Miguel Angel Fandino Castro</option>
+                    <option>Javier Esteban Garavito Chaves</option>
+                    <option>Vanessa Alexandra Gonzalez Casallas</option>
+                    <option>Andres David Gonzalez Maya</option>
+                    <option>Nicolas Jose Gonzalez Suarez</option>
+                    <option>Nicolas Pachon Unibio</option>
+                    <option>Samuel Santiago Ramirez Gonzalez</option>
+                    <option>Juan Felipe Rivera Neira</option>
+                    <option>Lucas Siqueira Restani</option>
+                    <option>Santiago Varela Hernandez</option> 
+                </optgroup>
             </select>
-            <p id="mensaje">Hola</p>
+            <p id="mensaje">Este mensaje cambiara una vez seleccione un miembro universitario.</p>
         </div>
     </body>
 </html>
